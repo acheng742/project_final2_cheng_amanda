@@ -57,6 +57,15 @@ p  {
     line-height: 180%;
 }
 
+section a {
+    text-decoration: none;
+    color: #b54e23;
+}
+
+section a:hover {
+    font-size: 125%;
+}
+
 .colors {
     padding: 2em;
     margin: auto;
