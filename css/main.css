@@ -58,12 +58,34 @@ p  {
 }
 
 section a {
+    margin: auto;
+    text-align: center;
     text-decoration: none;
     color: #b54e23;
 }
 
 section a:hover {
     font-size: 125%;
+}
+
+.button {
+    background-color: #d20072;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+.button:active {
+    color: ##f39e7a;
+}
+
+.button:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 .colors {
