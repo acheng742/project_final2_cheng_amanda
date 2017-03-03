@@ -97,7 +97,7 @@ section a:hover {
 }
 
 #dark-orange {
-    width: 10%;
+    width: 40%;
     background-color: #b54e23;
     padding: 5em;
     display: inline-block;
@@ -105,7 +105,7 @@ section a:hover {
 }
 
 #light-orange {
-    width: 10%;
+    width: 40%;
     background-color: #f39e7a;
     padding: 5em;
     display: inline-block;
@@ -113,7 +113,7 @@ section a:hover {
 }
 
 #magenta {
-    width: 10%;
+    width: 40%;
     background-color: #d20072;
     padding: 5em;
     display: inline-block;
@@ -121,7 +121,7 @@ section a:hover {
 }
 
 #teal {
-    width: 10%;
+    width: 40%;
     background-color: #06b1af;
     padding: 5em;
     display: inline-block;
@@ -129,7 +129,7 @@ section a:hover {
 }
 
 #cream {
-    width: 10%;
+    width: 82%;
     background-color: #eee5cc;
     padding: 5em;
     display: inline-block;
@@ -163,4 +163,44 @@ footer p {
     color: #404040;
     margin: auto;
     text-align: center;
+}
+
+@media all and (min-width: 800px) {
+    #dark-orange {
+        width: 10%;
+        background-color: #b54e23;
+        padding: 5em;
+        display: inline-block;
+        margin: 5px;
+    }
+    #light-orange {
+        width: 10%;
+        background-color: #f39e7a;
+        padding: 5em;
+        display: inline-block;
+        margin: 5px;
+    }
+    #magenta {
+        width: 10%;
+        background-color: #d20072;
+        padding: 5em;
+        display: inline-block;
+        margin: 5px;
+    }
+
+    #teal {
+        width: 10%;
+        background-color: #06b1af;
+        padding: 5em;
+        display: inline-block;
+        margin: 5px;
+    }
+
+    #cream {
+        width: 10%;
+        background-color: #eee5cc;
+        padding: 5em;
+        display: inline-block;
+        margin: 5px;
+    }
 }
