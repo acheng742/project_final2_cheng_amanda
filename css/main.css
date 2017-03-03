@@ -85,6 +85,7 @@ section a:hover {
 }
 
 .button:hover {
+    color: #ffffff;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
@@ -174,6 +175,23 @@ section a:hover {
         display: inline-block;
         margin: 5px;
     }
+    #wood-texture {
+        width: 20%;
+        display: inline-block;
+        margin: 20px;
+    }
+
+    #calligraphy {
+        width: 20%;
+        display: inline-block;
+        margin: 20px;
+    }
+
+    #salmon {
+        width: 20%;
+        display: inline-block;
+        margin: 20px;
+    }
 }
 
 @media all and (max-width: 400px) {
@@ -192,15 +210,18 @@ section a:hover {
 }
 
 #wood-texture {
-    margin: 50px;
+    width: 25%;
+    margin: 5px;
 }
 
 #calligraphy {
-    margin: 50px;
+    width: 25%;
+    margin: 5px;
 }
 
 #salmon {
-    margin: 50px;
+    width: 25%;
+    margin: 5px;
 }
 
 footer {
