@@ -136,35 +136,6 @@ section a:hover {
     margin: 5px;
 }
 
-.textures {
-    margin: auto;
-    text-align: center;
-}
-
-#wood-texture {
-    margin: 50px;
-}
-
-#calligraphy {
-    margin: 50px;
-}
-
-#salmon {
-    margin: 50px;
-}
-
-footer {
-    background-color: #eee5cc;
-    width: 100%;
-    height: 100px;
-}
-
-footer p {
-    color: #404040;
-    margin: auto;
-    text-align: center;
-}
-
 @media all and (min-width: 800px) {
     #dark-orange {
         width: 10%;
@@ -203,4 +174,43 @@ footer p {
         display: inline-block;
         margin: 5px;
     }
+}
+
+@media all and (max-width: 400px) {
+    #cream {
+        width: 40%;
+        background-color: #eee5cc;
+        padding: 5em;
+        display: inline-block;
+        margin: 5px;
+    }
+}
+
+.textures {
+    margin: auto;
+    text-align: center;
+}
+
+#wood-texture {
+    margin: 50px;
+}
+
+#calligraphy {
+    margin: 50px;
+}
+
+#salmon {
+    margin: 50px;
+}
+
+footer {
+    background-color: #eee5cc;
+    width: 100%;
+    height: 100px;
+}
+
+footer p {
+    color: #404040;
+    margin: auto;
+    text-align: center;
 }
