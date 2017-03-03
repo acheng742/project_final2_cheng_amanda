@@ -8,6 +8,14 @@ html {
     box-sizing: inherit;
 }
 
+.site-container {
+	max-width: 1200px;
+}
+
+#page {
+    margin: 0 auto;
+    padding: 30px 0px;
+}
 
 #logo {
     display: block;
