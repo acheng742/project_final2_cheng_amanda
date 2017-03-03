@@ -43,6 +43,13 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #404040;
+    text-align: center;
+}
+
 p  {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
@@ -71,6 +78,7 @@ p  {
     display: inline-block;
     margin: 5px;
 }
+
 #magenta {
     width: 10%;
     background-color: #d20072;
@@ -78,6 +86,7 @@ p  {
     display: inline-block;
     margin: 5px;
 }
+
 #teal {
     width: 10%;
     background-color: #06b1af;
@@ -85,10 +94,28 @@ p  {
     display: inline-block;
     margin: 5px;
 }
+
 #cream {
     width: 10%;
     background-color: #eee5cc;
     padding: 5em;
     display: inline-block;
     margin: 5px;
+}
+
+.textures {
+    margin: auto;
+    text-align: center;
+}
+
+#wood-texture {
+    margin: 50px;
+}
+
+#calligraphy {
+    margin: 50px;
+}
+
+#salmon {
+    margin: 50px;
 }
